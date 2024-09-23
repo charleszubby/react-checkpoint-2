@@ -4,7 +4,7 @@ import players from "../players";
 
 const PlayersList = () => {
   return (
-    <div style={{ display: "inline" }}>
+    <div style={{ display: "inline", backgroundColor: "black" }}>
       {players.map((player) => (
         <Player
           key={player.name}

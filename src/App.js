@@ -3,7 +3,7 @@ import PlayersList from "./components/PlayersList";
 
 const App = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "grey" }}>
       <PlayersList />
     </div>
   );

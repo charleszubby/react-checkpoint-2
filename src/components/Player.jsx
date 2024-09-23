@@ -3,7 +3,12 @@ import Card from "react-bootstrap/Card";
 
 const Player = ({ name, team, nationality, jerseyNumber, age, imageUrl }) => {
   return (
-    <Card style={{ width: "18rem", marginBottom: "4rem" }}>
+    <Card
+      style={{
+        width: "18rem",
+        marginBottom: "4rem",
+      }}
+    >
       <Card.Img variant="top" src={imageUrl} alt={name} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
